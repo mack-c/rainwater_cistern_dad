@@ -1,4 +1,4 @@
-# zisterne
+# tainwater_cistern_dad
 Rainwater tank (cistern) for my dad.
 Measure the distance to water surface with ultrasonic sensor. Publish the result on home wifi.
 
