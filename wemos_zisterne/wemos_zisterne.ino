@@ -9,8 +9,8 @@ int trigger = 5; // pin D1
 int echo = 4; // pin D2
 
 int max_hoehe = 20; // in cm
-int max_tiefe = 230; // in cm
-int grundflaeche = 40000; // in cm2
+int max_tiefe = 147; // in cm
+int grundflaeche = 41548; // in cm2
 
 long dauer = 0;
 long entfernung = 0; // in cm
@@ -70,6 +70,7 @@ void loop() {
   client.println("<html xmlns='http://www.w3.org/1999/xhtml'>");
   client.println("<head><meta charset=\"UTF-8\">");
   client.println("<title>Wasserstand Regenwasserzisterne</title>");
+  client.println("<meta http-equiv=\"refresh\" content=\"2\">"); //auto refresh alle 2 sek
   client.println("</head>\n<body>");
   client.println("<H2>Wasserstand Regenwasserzisterne</H2>");
 
